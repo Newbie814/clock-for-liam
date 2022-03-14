@@ -175,3 +175,168 @@ body {
   position: absolute;
   left: 174px;
 }
+
+@media screen and (max-width: 800px) {
+  .clock-face {
+    background: url(https://res.cloudinary.com/dylvkdabj/image/upload/v1647229221/website%20pics%20family/packers-green-back_rnngr8.jpg);
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #ffb612;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .center {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #203731;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+  }
+
+  .hour {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffb612;
+    position: absolute;
+  }
+
+  .hour-1 {
+    top: 20px;
+    right: 65px;
+  }
+  .hour-2 {
+    top: 62.5px;
+    right: 22.5px;
+  }
+  .hour-3 {
+    top: 117.5px;
+    right: 5px;
+  }
+  .hour-4 {
+    top: 172.5px;
+    right: 22.5px;
+  }
+  .hour-5 {
+    top: 215px;
+    right: 65px;
+  }
+  .hour-6 {
+    bottom: 5px;
+    left: 120px;
+  }
+  .hour-7 {
+    top: 215px;
+    left: 65px;
+  }
+  .hour-8 {
+    top: 172.5px;
+    left: 22.5px;
+  }
+  .hour-9 {
+    top: 117.5px;
+    left: 5px;
+  }
+  .hour-10 {
+    top: 62.5px;
+    left: 22.5px;
+  }
+  .hour-11 {
+    top: 20px;
+    left: 65px;
+  }
+  .hour-12 {
+    top: 5px;
+    left: 117.5px;
+  }
+
+  .minute-hand-container {
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border-radius: 50%;
+  }
+
+  .minute-hand {
+    position: relative;
+  }
+
+  .minute-hand .hand {
+    width: 3px;
+    height: 100px;
+    background-color: #ffb612;
+    position: absolute;
+    left: 99px;
+  }
+
+  .minute-hand .arrow {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffb612;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 95px;
+    top: -3.5px;
+  }
+
+  .hour-hand-container {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+  }
+
+  .hour-hand {
+    position: relative;
+  }
+
+  .hour-hand .hand {
+    width: 3px;
+    height: 75px;
+    background-color: #ffb612;
+    position: absolute;
+    left: 74px;
+  }
+
+  .hour-hand .arrow {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffb612;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 70px;
+    top: -3.5px;
+  }
+
+  .seconds-hand-container {
+    width: 175px;
+    height: 175px;
+
+    position: absolute;
+    top: 37.5px;
+    left: 37.5px;
+    border-radius: 50%;
+  }
+
+  .seconds-hand {
+    position: relative;
+  }
+
+  .seconds-hand .hand {
+    width: 1px;
+    height: 87.5px;
+    background-color: #e0020d;
+    position: absolute;
+    left: 87px;
+  }
+}
