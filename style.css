@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(32, 55, 49);
+  background: linear-gradient(
+    153deg,
+    rgba(32, 55, 49, 1) 0%,
+    rgba(32, 55, 49, 1) 53%,
+    rgba(255, 182, 18, 1) 100%
+  );
+}
+
+.clock-face {
+  background: url(https://res.cloudinary.com/dylvkdabj/image/upload/v1647229221/website%20pics%20family/packers-green-back_rnngr8.jpg);
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #ffb612;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.center {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #203731;
+  position: absolute;
+  top: 240px;
+  left: 240px;
+}
+
+.hour {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffb612;
+  position: absolute;
+}
+
+.hour-1 {
+  top: 40px;
+  right: 130px;
+}
+.hour-2 {
+  top: 125px;
+  right: 45px;
+}
+.hour-3 {
+  top: 235px;
+  right: 10px;
+}
+.hour-4 {
+  top: 345px;
+  right: 45px;
+}
+.hour-5 {
+  top: 430px;
+  right: 130px;
+}
+.hour-6 {
+  bottom: 10px;
+  left: 240px;
+}
+.hour-7 {
+  top: 430px;
+  left: 130px;
+}
+.hour-8 {
+  top: 345px;
+  left: 45px;
+}
+.hour-9 {
+  top: 235px;
+  left: 10px;
+}
+.hour-10 {
+  top: 125px;
+  left: 45px;
+}
+.hour-11 {
+  top: 40px;
+  left: 130px;
+}
+.hour-12 {
+  top: 10px;
+  left: 235px;
+}
+
+.minute-hand-container {
+  width: 400px;
+  height: 400px;
+
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
+}
+
+.minute-hand {
+  position: relative;
+}
+
+.minute-hand .hand {
+  width: 4px;
+  height: 200px;
+  background-color: #ffb612;
+  position: absolute;
+  left: 198px;
+}
+
+.minute-hand .arrow {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffb612;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 190px;
+  top: -7px;
+}
+
+.hour-hand-container {
+  width: 300px;
+  height: 300px;
+
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+.hour-hand {
+  position: relative;
+}
+
+.hour-hand .hand {
+  width: 4px;
+  height: 150px;
+  background-color: #ffb612;
+  position: absolute;
+  left: 148px;
+}
+
+.hour-hand .arrow {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffb612;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 140px;
+  top: -7px;
+}
+
+.seconds-hand-container {
+  width: 350px;
+  height: 350px;
+
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  border-radius: 50%;
+}
+
+.seconds-hand {
+  position: relative;
+}
+
+.seconds-hand .hand {
+  width: 2px;
+  height: 175px;
+  background-color: #e0020d;
+  position: absolute;
+  left: 174px;
+}
