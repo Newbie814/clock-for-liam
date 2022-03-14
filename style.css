@@ -176,7 +176,7 @@ body {
   left: 174px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 650px) {
   .clock-face {
     background: url(https://res.cloudinary.com/dylvkdabj/image/upload/v1647229221/website%20pics%20family/packers-green-back_rnngr8.jpg);
     background-size: contain;
