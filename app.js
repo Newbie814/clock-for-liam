@@ -13,5 +13,5 @@ setInterval(function () {
     'rotate(' + seconds + 'deg)';
   document.getElementById('minute').style.transform =
     'rotate(' + minutes + 'deg)';
-  document.getElementById('hour');
+  document.getElementById('hour').style.transform = 'rotate(' + hour + 'deg)';
 }, 1000);
